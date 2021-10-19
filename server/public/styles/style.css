@@ -1,0 +1,54 @@
+
+:root {
+/* CSS HEX */
+--bdazzled-blue: #3d5a80ff;
+--pale-cerulean: #98c1d9ff;
+--light-cyan: #e0fbfcff;
+--burnt-sienna: #ee6c4dff;
+--gunmetal: #293241ff;
+--white: #fdfffc;
+}
+
+body {
+    background-color: var(--white);
+    margin: none;
+    
+}
+
+bg-light {
+    background-color: var(--white);
+}
+
+bg-dark {
+    background-color: var(--gunmetal);
+}
+
+.deleteBtn:hover {
+    background-color: var(--pale-cerulean);
+}
+
+.radioActive:active, .radioActive:checked, .radioActive:hover {
+    background-color: var(--pale-cerulean);
+}
+
+.radioActive:focus, .inputActive:focus {
+    box-shadow: none;
+}
+
+h1, h2, h3, h4 {
+    padding: 20px;
+    color: var(--white) 
+}
+
+footer , h5{
+    padding: 10px;
+    color: var(--white) 
+}
+
+.topBuffer {
+    height: 120px
+}
+
+.bottomBuffer {
+    height: 100px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="vendors/jquery-3.6.0.min.js" charset="utf-8"></script>
+    <script src="scripts/client.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>ToDo</title>
+</head>
+<body class="bg-light d-flex flex-column h-100">
+    <header class="bg-dark fixed-top">
+        <div class="container d-flex py-3">
+        <h1>ToDos</h1>
+        </div>
+    </header>
+    <div class="topBuffer">
+
+    </div>
+
+    <main id="listArea" class="container p-4">
+
+        <div class="singleList listInput p-2 "> 
+            <div class="input-group input-group-lg shadow-sm">
+                <input type="text" id="newList" class="form-control inputActive" placeholder="Start New List" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <span class="input-group-text " >Sat Oct 16</span>
+            </div>
+        </div>
+
+        <!-- <div class="singleList p-2"> 
+            <div class="input-group input-group-lg shadow-sm">
+                <input type="text" class="form-control inputActive" placeholder="List Name" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                <span class="input-group-text " >Sat Oct 16</span>
+            </div>
+
+            <ul class="list-group taskList shadow-sm">
+                <li class="list-group-item list-group-item-action ">
+                    <input class="form-control inputActive" type="text" value="" placeholder="New Item">
+                </li>
+
+            </ul>
+            <div class="input-group shadow-sm">
+                <select class="form-select" name="affectSelected">
+                    <option value="Update Selected">Update</option>
+                    <option value="Archive Selected">Archive</option>
+                    <option value="Delete Selected">Delete</option>
+                </select>
+                <button class="btn btn-outline-secondary deleteBtn " type="button">Selected</button>
+            </div>
+        </div> -->
+  
+    </main>
+    <div class="bottomBuffer">
+
+    </div>
+
+    <footer class="bg-dark footer mt-auto py-3 fixed-bottom ">
+        <div class="container d-flex py-3">
+            <h5>© 2021 CCLLCDEV</h5>
+        </div>
+    </footer>
+
+</body>
+</html>
